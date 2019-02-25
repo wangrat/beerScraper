@@ -1,18 +1,6 @@
-# Scrapy settings for amazonbook project
-#
-# For simplicity, this file contains only the most important settings by
-# default. All the other settings are documented here:
-#
-#     http://doc.scrapy.org/en/latest/topics/settings.html
-#
-
-import sys
-import os
-from os.path import dirname
-
 BOT_NAME = 'beerScraper'
 
-SPLASH_URL = 'http://0.0.0.0:8050'
+SPLASH_URL = 'http://192.168.99.100:8050'
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashCookiesMiddleware': 723,
@@ -20,18 +8,8 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
 }
 
-
 SPIDER_MODULES = ['beerScraper.spiders']
 NEWSPIDER_MODULE = 'beerScraper.spiders'
-
-# Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'amazonbook (+http://www.yourdomain.com)'
-
-
-ITEM_PIPELINES = {
-    #'beerScraper.pipelines.JsonWithEncodingPipeline': 300,
-    #'amazonbook.pipelines.RedisPipeline': 301,
-}
 
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 
@@ -39,7 +17,14 @@ SPIDER_MIDDLEWARES = {
     'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
 }
 
+ITEM_PIPELINES = {
+    'scrapy.pipelines.images.ImagesPipeline': 1,
+    'beerScraper.pipelines.DuplicatesPipeline': 300,
+    'beerScraper.pipelines.JsonWriterPipeline': 500
+}
 
-LOG_LEVEL = 'INFO'
+IMAGES_STORE = './images/'
 
-DOWNLOAD_DELAY = 1
+
+IMAGES_URLS_FIELD = 'image_url'
+IMAGES_RESULT_FIELD = 'image'

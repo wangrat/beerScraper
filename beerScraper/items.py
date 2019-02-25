@@ -3,9 +3,11 @@
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
 
-from scrapy.item import Item, Field
+import scrapy
 
-class amazonbookItem(Item):
-    # define the fields for your item here like:
-    name = Field()
 
+class Beer(scrapy.Item):
+    name = scrapy.Field()
+    image = scrapy.Field()
+    image_url = scrapy.Field()
+    id = scrapy.Field()
