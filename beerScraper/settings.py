@@ -1,6 +1,6 @@
 BOT_NAME = 'beerScraper'
 
-SPLASH_URL = 'http://192.168.99.100:8050'
+SPLASH_URL = 'http://0.0.0.0:8050'
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashCookiesMiddleware': 723,
@@ -32,3 +32,13 @@ IMAGES_RESULT_FIELD = 'images'
 USER_AGENT = 'beerRecognizer (not yet on github)'
 
 DOWNLOAD_TIMEOUT = 90
+
+# REACTOR_THREADPOOL_MAXSIZE = 20
+
+COOKIES_ENABLED = False
+
+RETRY_TIMES = 10
+
+CONCURRENT_REQUESTS = 1
+
+LOG_LEVEL = 'INFO'

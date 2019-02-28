@@ -67,7 +67,6 @@ class SplashSpider(scrapy.Spider):
     
     function main(splash, args)
         assert(splash:go(args.url))
-        assert(splash:wait(3))
         
         local result, error = splash:wait_for_resume([[
         
