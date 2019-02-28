@@ -23,8 +23,12 @@ ITEM_PIPELINES = {
     'beerScraper.pipelines.JsonWriterPipeline': 500
 }
 
-IMAGES_STORE = './images/'
+IMAGES_STORE = './images'
 
 
-IMAGES_URLS_FIELD = 'image_url'
-IMAGES_RESULT_FIELD = 'image'
+IMAGES_URLS_FIELD = 'image_urls'
+IMAGES_RESULT_FIELD = 'images'
+
+USER_AGENT = 'beerRecognizer (not yet on github)'
+
+DOWNLOAD_TIMEOUT = 90

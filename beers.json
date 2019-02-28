@@ -1,0 +1,117 @@
+{
+  "count": 9,
+  "beers": [
+    {
+      "name": "Abita Amber Lager",
+      "image_urls": [
+        "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_2"
+      ],
+      "id": 2,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_2",
+          "path": "full/74c33b05e1601fa641081fe553905f6e04806c00.jpg",
+          "checksum": "bdd519efeff28948df34f38aa8164cf7"
+        }
+      ]
+    },
+    {
+      "name": "Abita Christmas Ale",
+      "image_urls": [
+        "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_5"
+      ],
+      "id": 5,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_5",
+          "path": "full/0491b2df02b383b8ed5aafa8214aa1bcee3a3807.jpg",
+          "checksum": "ea056cd52bd6644f39fe3b9989602fb1"
+        }
+      ]
+    },
+    {
+      "name": "Fischer Adelscott",
+      "image_urls": [
+        "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_10"
+      ],
+      "id": 10,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_10",
+          "path": "full/90dce67ecde57f49507a09253fed727edcb9cb7f.jpg",
+          "checksum": "0e2cce1ea159c8bfaf19be7c8d01d0aa"
+        }
+      ]
+    },
+    {
+      "name": "Abita Fall Fest",
+      "image_urls": [
+        "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_6"
+      ],
+      "id": 6,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_6",
+          "path": "full/924bd52757d715257362cabeaa16059bc2183c39.jpg",
+          "checksum": "b2d23124901c232def9faac7548a3fcf"
+        }
+      ]
+    },
+    {
+      "name": "Abita Andygator",
+      "image_urls": [
+        "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_3"
+      ],
+      "id": 3,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_3",
+          "path": "full/c37b5ef986c7dd703c2483beba642442fce66e8a.jpg",
+          "checksum": "831ba9d6a0fd501ba7789c43ae2a2628"
+        }
+      ]
+    },
+    {
+      "name": "Abita Turbodog",
+      "image_urls": [
+        "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_9"
+      ],
+      "id": 9,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_9",
+          "path": "full/4c1bbf88c81096d819296903f167c2ab2362b128.jpg",
+          "checksum": "36b2abfe70a5f3956f50122156147274"
+        }
+      ]
+    },
+    {
+      "name": "Abita Purple Haze",
+      "image_urls": [
+        "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_8"
+      ],
+      "id": 8,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_8",
+          "path": "full/5a57708b62b7d3bbc96ab6219cfd5c467cbb0697.jpg",
+          "checksum": "dce865b8b5703359e699b78f17ebd201"
+        }
+      ]
+    },
+    {
+      "name": "Beamish Irish Stout",
+      "image_urls": [
+        "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_1"
+      ],
+      "id": 1,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/ratebeer/image/upload/w_152,h_309,c_pad,d_beer_img_default.png,f_auto/beer_1",
+          "path": "full/d5ac90e55f8e53305120cc5ce92c7f99eff5b0e3.jpg",
+          "checksum": "946a83a202433ef7e693260273698791"
+        }
+      ]
+    }
+  ]
+}

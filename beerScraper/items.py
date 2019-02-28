@@ -7,7 +7,7 @@ import scrapy
 
 
 class Beer(scrapy.Item):
-    name = scrapy.Field()
-    image = scrapy.Field()
-    image_url = scrapy.Field()
     id = scrapy.Field()
+    name = scrapy.Field()
+    images = scrapy.Field()
+    image_urls = scrapy.Field()
