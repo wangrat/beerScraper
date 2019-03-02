@@ -11,3 +11,5 @@ class Beer(scrapy.Item):
     name = scrapy.Field()
     images = scrapy.Field()
     image_urls = scrapy.Field()
+    deleted = scrapy.Field()
+    alias = scrapy.Field()
